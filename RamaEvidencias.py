@@ -113,7 +113,7 @@ if __name__ == '__main__':
         arg1 = None
     Rama= RamaProcessClass()
     print('*** Inicio: '+datetime.today().strftime('%Y-%m-%d %H:%M:%S')+"\n") 
-    print("Version 1.6.4")   
+    print("Version 1.0.0")   
     try:
         Connections = Connection()
         IsAuth,Key = Rama.authenticate(Connections)
